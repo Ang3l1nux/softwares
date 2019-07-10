@@ -16,7 +16,6 @@ Como instalar o ZSH e Oh-my-zsh no Linux
 
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh0">1- O que é o ZSH?</h2>
-----------------------------------------------------------------------------------------------------------------
 
 O Z shell ou zsh é um shell interativo UNIX e um poderoso interpretador de linha de comando para linguagem de 
 script, incluindo shell script. 
