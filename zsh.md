@@ -64,13 +64,13 @@ com o tema padrão. Basicamente, o shell padrão no Ubuntu é o bash, então vam
 usar zsh como o shell padrão.
 
 Para instalar o zsh a partir do repositório, use os seguintes comandos:
-apt instalar zsh
+><span style="color: green"> <b>apt install zsh<b/> </span>
 
 Após a conclusão da instalação, altere o shell padrão do usuário root para zsh com o comando chsh abaixo:
-chsh -s /usr/bin/zsh root
+><span style="color: green"> <b>chsh -s /usr/bin/zsh root<b/> </span>
 
 Agora faça logout do usuário root, efetue login novamente e você obterá o shell zsh.
-Verifique o shell atual usado com o comando abaixo. \
+Verifique o shell atual usado com o comando abaixo.
 ><span style="color: green"> <b>echo $ SHELL<b/> </span>
 ----------------------------------------------------------------------------------------------------------------
 ![1](./img/1.webp)
