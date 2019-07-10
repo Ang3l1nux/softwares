@@ -2,8 +2,8 @@
 ----------------------------------------------------------------------------------------------------------------
 <img align="left" width="30" height="30" src="./img/zsh.jpeg" /> <img align="left" width="30" height="30" src="./img/tux.png" /> <img align="left" width="50" height="30" src="./img/oh.png" /> <br> 
 
-Como instalar o ZSH e Oh-my-zsh no Linux   
-<progress> 0 </progress>
+Como instalar o ZSH e Oh-my-zsh no Linux
+
 ----------------------------------------------------------------------------------------------------------------
 <a href="#zsh0">1- O que é o ZSH?</a> <br>
 <a href="#zsh1">2- O que é Oh-my-zsh?</a> <br>
@@ -17,6 +17,7 @@ Como instalar o ZSH e Oh-my-zsh no Linux
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh0">1- O que é o ZSH?</h2>
 ----------------------------------------------------------------------------------------------------------------
+
 O Z shell ou zsh é um shell interativo UNIX e um poderoso interpretador de linha de comando para linguagem de 
 script, incluindo shell script. 
 Zsh foi desenvolvido por 'Paul Fastad' em 1990, e o nome 'zsh' vem do professor de Yale, Zong Shao.
@@ -34,6 +35,7 @@ Abaixo estão algumas funções importantes do zsh:
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh1">2- O que é Oh-my-zsh?</h2> 
 ----------------------------------------------------------------------------------------------------------------
+
 Oh-my-zsh é uma estrutura de código aberto para gerenciar o ZSH. Existem também outros frameworks para o z shell, 
 como prezto, Zgen, Antigen, etc. Neste tutorial, usamos 'oh-my-zsh' para nossa configuração zsh.
 
@@ -46,12 +48,14 @@ oh-my-zsh para gerenciar zsh. Também mostraremos como alterar o tema zsh e ativ
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh2">3- Prerequisitos</h2> 
 ----------------------------------------------------------------------------------------------------------------
+    
     Linux - Ubuntu 16.04 or CentOS 7.6
     Root privileges
 
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh3">4- O que faremos</h2> 
 ----------------------------------------------------------------------------------------------------------------
+   
     - Instalar e configurar o ZSH
     - Instalar e configurar o framework Oh-my-zsh
     - Alterar o tema padrão
@@ -59,6 +63,7 @@ oh-my-zsh para gerenciar zsh. Também mostraremos como alterar o tema zsh e ativ
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh4">5- Passo 1 - Instalar e configurar o ZSH</h2> 
 ----------------------------------------------------------------------------------------------------------------
+
 Nesta etapa, instalaremos o repositório do Z shell e em seguida configuraremos um usuário para usar o Z shell 
 com o tema padrão. Basicamente, o shell padrão no Ubuntu é o bash, então vamos configurar um usuário root para 
 usar zsh como o shell padrão.
@@ -79,6 +84,7 @@ Verifique o shell atual usado com o comando abaixo. \
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh5">6- Passo 2 - Instalar e configurar o Oh-my-zsh framework</h2> 
 ----------------------------------------------------------------------------------------------------------------
+
 Agora que o Z shell está instalado, vamos instalar o frameork oh-my-zsh para gerenciar o zsh z shell.
 
 Oh-my-zsh fornece um script de instalação para instalar o framework, e nós precisamos instalar alguns outros \
@@ -118,6 +124,7 @@ configuração padrão.
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh6">7- Passo 3 - Alterar temas padrão</h2> 
 ----------------------------------------------------------------------------------------------------------------
+
 A configuração padrão .zshrc fornecida pelo oh-my-zsh é usando o tema 'robbyrusell'. Nesta etapa, vamos editar a \
 configuração e alterar o tema padrão. 
 
@@ -147,6 +154,7 @@ Agora atualize a configuração do .zshrc e o tema 'risto' será usado como tema
 ----------------------------------------------------------------------------------------------------------------
 <h2 id="zsh7">8- Passo 4 - Ativar plugins Oh-my-zsh</h2> 
 ----------------------------------------------------------------------------------------------------------------
+
 Oh-my-zsh oferece incríveis plugins. Existem muitos plugins para o nosso ambiente, voltados para desenvolvedores, \
 administradores de sistemas e todos os outros. \
 Os plugins padrões estão no diretório 'plugins'.
@@ -186,7 +194,7 @@ Plugin Vagrant para autocompletar comando:
 ![1](./img/zsh_7.webp)
 ----------------------------------------------------------------------------------------------------------------
 
-Para concluir, o Z shell bem como o framework oh-my-zsh foram instalados. Além disso, o tema padrão do oh-my-zsh foi \
+Para concluir, o Z shell bem como o framework oh-my-zsh foram instalados. Além disso, o tema padrão do oh-my-zsh foi
 alterado com alguns plugins ativados.
 
 Reference:
